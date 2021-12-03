@@ -1,0 +1,57 @@
+.header{
+    padding: 20px;
+}
+.headerFooterFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.textoProductos{
+    text-align: center;
+}
+.footer{
+    background-color: rgb(99, 99, 99);
+    padding: 30px;
+}
+.terminos{
+        text-align: center;
+}
+.redes{
+        text-align: right;
+}
+.destacadosImg{
+    width: 266px;
+    height: 330px;
+    /*margin-left: 50px;*/
+}
+.boton{
+    color: white;
+    background-color: red;
+    width: 224px;
+    height: 25px;
+    margin-left: 50px;
+}
+/*---ESPACIADOS---*/
+.espaciado{
+    margin-top: 50px;
+}
+.espacioProductos{
+    margin: 40px;
+}
+.footerLetra{
+    width: 33%;
+}
+/*---GRIDS IGUALERDFDSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSEEEES---*/
+#padre {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    border: 1px solid rgb(179, 179, 179);
+}
+#padreInicio{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto;
+    border: 1px solid rgb(179, 179, 179);
+    
+}
